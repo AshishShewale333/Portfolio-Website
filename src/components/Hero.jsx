@@ -1,12 +1,12 @@
 import React from "react";
 import { motion } from "framer-motion";
-import profilePic from "/logos/profile.jpg"; // put your image in src/assets/
+import profilePic from "../assets/profile.jpg"; // ✅ correct way
 
 const Hero = () => {
   return (
     <section
       id="hero"
-      className="flex flex-col md:flex-row items-center justify-center gap-8 py-20 px-4 text-center md:text-left max-w-6xl mx-auto"
+      className="flex flex-col md:flex-row items-center justify-center gap-10 py-20 px-4 max-w-6xl mx-auto text-center md:text-left"
     >
       {/* Text */}
       <motion.div
@@ -18,13 +18,24 @@ const Hero = () => {
         <h1 className="text-5xl md:text-6xl font-bold text-sky-400 mb-4">
           Ashish Shewale
         </h1>
+
         <h2 className="text-2xl md:text-3xl text-yellow-400 mb-6">
           Java Backend Developer
         </h2>
-        <p className="text-gray-300 text-lg md:text-xl">
+
+        <p className="text-gray-300 text-lg md:text-xl mb-8">
           I build scalable backend systems using Java, Spring Boot, Kafka,
           Microservices, and Cloud.
         </p>
+
+        {/* ✅ Download CV */}
+        <a
+          href="/Portfolio-Website/resume/Ashish_Shewale_Resume.pdf"
+          download
+          className="inline-block bg-sky-500 hover:bg-sky-600 text-white font-semibold px-6 py-3 rounded-lg transition-colors"
+        >
+          Download CV
+        </a>
       </motion.div>
 
       {/* Profile Picture */}
