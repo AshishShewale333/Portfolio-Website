@@ -6,28 +6,28 @@ const experiences = [
     company: "NuSummit",
     duration: "Jul 2025 - Present · 7 mos",
     location: "On-site",
-    logo: "/logos/nusummit.png",
+    logo: "logos/nusummit.png",
   },
   {
     role: "Software Engineer",
     company: "StoxBox",
     duration: "Feb 2025 - Jul 2025 · 6 mos",
     location: "Mumbai, Maharashtra, India",
-    logo: "/logos/stoxbox.png",
+    logo: "logos/stoxbox.png",
   },
   {
     role: "Software Engineer",
     company: "Nasdaq",
     duration: "Jan 2023 - Jan 2025 · 2 yrs 1 mo",
     location: "Mumbai, Maharashtra, India",
-    logo: "/logos/nasdaq.png",
+    logo: "logos/nasdaq.png",
   },
   {
     role: "Junior Design Engineer",
     company: "J. Kumar Infraprojects Ltd.",
     duration: "Jan 2020 - Sep 2020 · 9 mos",
     location: "Andheri · On-site",
-    logo: "/logos/jkumar.png",
+    logo: "logos/jkumar.png",
   },
 ];
 
