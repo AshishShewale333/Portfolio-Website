@@ -4,7 +4,7 @@ const experiences = [
   {
     role: "Software Developer",
     company: "NuSummit",
-    duration: "Jul 2025 - Present · 7 mos",
+        duration: "Jul 2025 - Present · 1 yr 5 mo",
     location: "On-site",
     logo: "logos/nusummit.png",
   },
