@@ -7,6 +7,11 @@ const projects = [
     description: "Built a Spring Boot REST API for managing expenses and categories, with CRUD operations, pagination, and filtering by category, name, and date.",
     link: "https://github.com/AshishShewale333/expense-tracker-springboot",
   },
+  {
+    title: "FinSight AI",
+    description: "Built a full-stack finance platform with a React and TypeScript dashboard and a Java 17/Spring Boot backend for equity portfolio tracking, analytics, and AI-powered, document-grounded financial research.",
+    link: "https://github.com/AshishShewale333/FinSight-AI",
+  },
 ];
 
 export default function Projects() {
